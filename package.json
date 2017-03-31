@@ -1,0 +1,24 @@
+{
+  "name": "modbus-crc16",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ocfootprint/modbus-crc.git"
+  },
+  "keywords": [
+    "crc16",
+    "modbus",
+    "rtu"
+  ],
+  "author": "cc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ocfootprint/modbus-crc/issues"
+  },
+  "homepage": "https://github.com/ocfootprint/modbus-crc#readme"
+}
