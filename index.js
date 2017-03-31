@@ -51,7 +51,7 @@ function calCrc(buf, previous) {
     crc = ((TABLE[(crc ^ byte) & 0xff] ^ (crc >> 8)) & 0xffff);
   }
   let swapped = ((crc << 8) & 0xff00) | ((crc >> 8) & 0x00ff);
-	return swapped;
+  return swapped;
 }
 
 function checkCrc(buf, check) {
